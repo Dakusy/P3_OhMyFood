@@ -26,22 +26,24 @@
     <section>
         <div class="box_restaurant_title">
             <h1>La Palette Du Goût</h1>
-            <div class="heart_empty">
-                <label class="heart_checkbox">
-                    <input type="checkbox" style="visibility:hidden"/>
-                    <i class="fa-regular fa-heart unchecked"></i>
-                    <i class="fa-solid fa-heart checked"></i>
-                </label>
-            </div>
-            <div class="heart_full">
-                <i class="fa-solid fa-heart"></i>
+            <div class="heart_animation">
+                <div class="empty_heart">
+                    <label class="heart_checkbox">
+                        <input type="checkbox" style="visibility:hidden"/>
+                        <i class="fa-regular fa-heart unchecked"></i>
+                        <i class="fa-solid fa-heart checked"></i>
+                    </label>
+                </div>
+                <div class="full_heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
             </div>
         </div>
     </section>
 
     <section>
         <div class="container_menu">
-            <h2 class="">ENTREES</h2>
+            <h2 class="title">ENTREES</h2>
             <div class="box_menu">
                 <div class="menu menu_1">
                     <span>
@@ -51,6 +53,9 @@
                             <p>25€</p>
                         </div>
                     </span>
+                    <div class="valid_green">
+                        
+                    </div>
                 </div>
 
                 <div class="menu menu_2">
@@ -79,7 +84,7 @@
 
     <section>
         <div class="container_menu">
-            <h2 class="">PLATS</h2>
+            <h2 class="title">PLATS</h2>
             <div class="box_menu">
                 <div class="menu menu_1">
                     <span>
@@ -117,7 +122,7 @@
 
     <section>
         <div class="container_menu">
-            <h2 class="">DESSERTS</h2>
+            <h2 class="title">DESSERTS</h2>
             <div class="box_menu">
                 <div class="menu menu_1">
                     <span>
@@ -152,6 +157,10 @@
             </div>
         </div>
     </section>
+
+    <div  class="container_order">
+        <span class="box_order">Commander<span>
+    </div>
 
     <footer>
         <div class="background_footer">
