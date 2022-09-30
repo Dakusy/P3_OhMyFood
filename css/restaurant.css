@@ -154,14 +154,12 @@ a {
 }
 
 .container_menu .title {
-  /* barre verte dessous les titres */
   border-bottom: 3px solid #99e2d0;
   padding-bottom: 5px;
   width: 40px;
 }
 
 .container_menu .box_menu {
-  /* contient les 3  boutons */
   display: flex;
   flex-direction: column;
   justify-content: space-between;

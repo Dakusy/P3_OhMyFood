@@ -1,5 +1,48 @@
-@media (min-width: 998px) {
-    body {
-        
+/*****************\ ♦ Responsive design ♦ \*****************/
+
+@media screen and (min-width: 992px)
+{
+    .container_button{
+        padding: 27px 25% 68px 25%;
+    }
+    .card_button h4{ /* texte dans le boutton */
+        margin-right: 24px;
+    }
+    .container_restaurants{
+        text-align: left; 
+        padding: 27px 25% 35px 25%;
+        width: 50%;
+    }
+    .box_restaurants{
+        flex-direction: row;
+        flex-wrap: wrap;    
+    }
+    .restaurants{
+        width: 48%;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    .text_restaurants{
+        text-overflow: ellipsis;
+   
+        white-space:nowrap;
+        width: auto;
+    }
+    .BackgroundFooter{
+        padding: 22px 25% 25px 25%;
+    }
+}
+
+
+@media screen and (min-width: 1440px)
+{
+    
+    .box_button{
+        flex-direction: row;
+        gap: 25px;
+    }
+    .typelist{
+        justify-content: space-between;
+        flex-direction: row;
     }
 }
