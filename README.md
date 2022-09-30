@@ -15,7 +15,7 @@
 
 👤 **Dakusy**
 
-* Website: github.com/Dakusy
+* Website: https://dakusy.github.io/P3_OhMyFood/
 * Twitter: [@DakusyTV](https://twitter.com/DakusyTV)
 * Github: [@Dakusy](https://github.com/Dakusy)
 
