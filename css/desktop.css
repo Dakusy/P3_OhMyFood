@@ -29,13 +29,7 @@
     }
     .BackgroundFooter{
         padding: 22px 25% 25px 25%;
-    }
-}
-
-
-@media screen and (min-width: 1440px)
-{
-    
+    } 
     .box_button{
         flex-direction: row;
         gap: 25px;

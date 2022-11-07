@@ -228,6 +228,10 @@ a {
   transition-duration: 0.5s;
 }
 
+.container_menu .box_menu .menu:hover .text_menu {
+  width:80%;
+}
+
 .container_menu .box_menu .menu:hover .valid_green {
   /* ticket vert actif au survole */
   left: 83%;
@@ -282,6 +286,12 @@ a {
   color: white;
   display: flex;
   flex-direction: column;
+}
+
+.footer_font{
+  font-family: 'Shrikhand';
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .typelist {
