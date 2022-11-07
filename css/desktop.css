@@ -24,7 +24,6 @@
     }
     .text_restaurants{
         text-overflow: ellipsis;
-   
         white-space:nowrap;
         width: auto;
     }
