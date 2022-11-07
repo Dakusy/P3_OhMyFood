@@ -59,6 +59,8 @@ a {
 }
 
 .box_restaurant_title {
+  font-family: 'Shrikhand';
+  font-size: 28px;
   margin-top: 220px;
   display: flex;
   justify-content: space-between;

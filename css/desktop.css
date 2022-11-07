@@ -13,6 +13,27 @@
         padding: 27px 25% 35px 25%;
         width: 50%;
     }
+
+    .container_menu {
+        padding: 27px 30% 0px 30%;
+    }
+
+    .container_order {
+        padding: 20px 30% 0px 30%;
+    }
+
+    .box_restaurant_title{
+        margin-top: 300px;
+        justify-content: flex-start;
+        gap: 50px;
+        padding: 0px 30% 0px 30%;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    .cover img {
+        height: 350px;
+      }
+
     .box_restaurants{
         flex-direction: row;
         flex-wrap: wrap;    
