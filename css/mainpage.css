@@ -257,6 +257,10 @@ a {
 
 /* checkbox for like heart */
 
+.heart_checkbox input[type="checkbox"] {
+    visibility: hidden;
+}
+
 .checkbox input[type="checkbox"],
 .heart_checkbox .checked {
   display: none;
