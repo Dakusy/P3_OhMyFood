@@ -257,6 +257,70 @@ a {
 }
 
 
+/* animation slip menu */*
+
+.container_menu .box_menu .menu.menu1 {
+  animation-duration: 1500ms;
+  animation-delay: 5ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu2 {
+  animation-duration: 1800ms;
+  animation-delay: 70ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu3 {
+  animation-duration: 2100ms;
+  animation-delay: 140ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu4 {
+  animation-duration: 2400ms;
+  animation-delay: 210ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu5 {
+  animation-duration: 2700ms;
+  animation-delay: 280ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu6 {
+  animation-duration: 3000ms;
+  animation-delay: 350ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu7 {
+  animation-duration: 2300ms;
+  animation-delay: 420ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu8 {
+  animation-duration: 3600ms;
+  animation-delay: 490ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu9 {
+  animation-duration: 3900ms;
+  animation-delay: 560ms;
+  animation-name: slip;
+}
+.container_menu .box_menu .menu.menu10 {
+  animation-duration: 4200ms;
+  animation-delay: 630ms;
+  animation-name: slip;
+}
+@keyframes slip {
+  from {
+    margin-bottom: 20%;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0%;
+    opacity: 1;
+  }
+}
+
+
 /* order button */
 
 .container_order {
