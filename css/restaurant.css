@@ -262,34 +262,34 @@ a {
 
 /* animation menu déroulant */ 
 
-.container_menu .box_menu .menu.menu1 {
+.container_menu .box_menu .menu.anim1 {
   animation-delay: 200ms;
 }
-.container_menu .box_menu .menu.menu2 {
+.container_menu .box_menu .menu.anim2 {
   animation-delay: 400ms;
 }
-.container_menu .box_menu .menu.menu3 {
+.container_menu .box_menu .menu.anim3 {
   animation-delay: 600ms;
 }
-.container_menu .box_menu .menu.menu4 {
+.container_menu .box_menu .menu.anim4 {
   animation-delay: 800ms;
 }
-.container_menu .box_menu .menu.menu5 {
+.container_menu .box_menu .menu.anim5 {
   animation-delay: 1000ms;
 }
-.container_menu .box_menu .menu.menu6 {
+.container_menu .box_menu .menu.anim6 {
   animation-delay: 1200ms;
 }
-.container_menu .box_menu .menu.menu7 {
+.container_menu .box_menu .menu.anim7 {
   animation-delay: 1400ms;
 }
-.container_menu .box_menu .menu.menu8 {
+.container_menu .box_menu .menu.anim8 {
   animation-delay: 1600ms;
 }
-.container_menu .box_menu .menu.menu9 {
+.container_menu .box_menu .menu.anim9 {
   animation-delay: 1800ms;
 }
-.container_menu .box_menu .menu.menu10 {
+.container_menu .box_menu .menu.anim10 {
   animation-delay: 2000ms;
 }
 
